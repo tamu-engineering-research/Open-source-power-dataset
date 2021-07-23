@@ -9,6 +9,9 @@ This paper aims to bridge the power system and machine learning communities by i
   
 
 - Data Original
+  - Load: all collected real hourly load data from multiple sources
+  - Solar: all collected real 5-min level solar radiance time series data
+  - Wind: all collected real 1-min level wind speed time series data
 
 - Code
 
