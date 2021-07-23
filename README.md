@@ -20,4 +20,4 @@ Available at: [arXiv](https://arxiv.org/abs/XXXXXXXXXXXXXX).
 - Alternative supplement dataset in Zenodo:
 Available at: [Zenodo](https://zenodo.org/deposit/5130612#).
 
-## Relevent Link
+## Contact
