@@ -15,10 +15,10 @@ This paper aims to bridge the power system and machine learning communities by i
 
 - ***Code***
   - **Benchmark Model**
-    - *Event Classification and Localization*
-    - *Load and Renewable Forecasting*
-  - **Joint Simulation**
-  - **Data Processing**
+    - *Event Classification and Localization*: baseline models for event classification and localization
+    - *Load and Renewable Forecasting*: baseline models for load and renewable forecasting
+  - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
+  - **Data Processing**: python codes for preprocessing original data and estimating load and renewable power 
 
 ## Suggested Citation
 - Please cite the following paper when you use this data hub:  
