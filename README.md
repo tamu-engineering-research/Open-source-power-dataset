@@ -3,9 +3,9 @@ This paper aims to bridge the power system and machine learning communities by i
 
 ## Navigation
 - ***Data Released***
-  -  **Dataset_full.csv**: full coherent multi-scale power system dataset
-  -  **Dataset_classification.csv**: power system dataset for classification tasks
-  -  **Dataset_forecasting.csv**: power system dataset for forecasting tasks
+  -  **Dataset_full.csv**: full 1-year-long milli-second-level power system time series
+  -  **Dataset_classification.csv**: 20-second-long milli-second-level power system time series for classification tasks
+  -  **Dataset_forecasting.csv**: 1-year-long hourly power system dataset for forecasting tasks
   
 
 - ***Data Original***
