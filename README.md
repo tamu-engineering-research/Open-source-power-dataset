@@ -20,6 +20,8 @@ This paper aims to bridge the power system and machine learning communities by i
   - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
   - **Data Processing**: python codes for preprocessing original data and estimating load and renewable power 
 
+## Terms of use, privacy and license
+
 ## Dataset Version History
 - V 0.1: initiate data upload
 
