@@ -6,12 +6,6 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   -  **Load Renewable Data**: full 1-year-long milli-second-level power system time series
   -  **Minute-level PMU Measurements**: 20-second-long milli-second-level power system time series for classification tasks
   -  **Millisecond-level PMU Measurements**: 1-year-long hourly power system dataset for forecasting tasks
-  
-
-- ***Data Original***
-  - **Load**: all collected real hourly load data from multiple sources
-  - **Solar**: all collected real 5-min level solar radiance time series data
-  - **Wind**: all collected real 1-min level wind speed time series data
 
 - ***Code*** (to be released upon acceptance)
   - **Benchmark Model**
