@@ -27,7 +27,7 @@ This paper aims to bridge the power system and machine learning communities by i
 ## Suggested Citation
 - Please cite the following paper when you use this data hub:  
 `
-``An Open-Source Multi-scale Power System Dataset for Machine Learning on Time Series,'' Neural Information Processing System Dataset and Benchmark Track, 2021.
+``PSML: A Multi-scale Time-series Dataset for Machine Learning in Decarbonized Energy Grids,'' Neural Information Processing System Dataset and Benchmark Track, 2021.
 `\
 Available at: [arXiv](https://arxiv.org/abs/XXXXXXXXXXXXXX).
 
