@@ -18,7 +18,6 @@ This paper aims to bridge the power system and machine learning communities by i
     - *Event Classification and Localization*: baseline models for event classification and localization
     - *Load and Renewable Forecasting*: baseline models for load and renewable forecasting
   - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
-  - **Data Processing**: python codes for preprocessing original data and estimating load and renewable power 
 
 ## Terms of use, privacy and license
 
