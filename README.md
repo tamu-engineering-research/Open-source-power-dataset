@@ -13,7 +13,7 @@ This paper aims to bridge the power system and machine learning communities by i
   - **Solar**: all collected real 5-min level solar radiance time series data
   - **Wind**: all collected real 1-min level wind speed time series data
 
-- ***Code*** (to be release upon acceptance)
+- ***Code*** (to be released upon acceptance)
   - **Benchmark Model**
     - *Event Classification and Localization*: baseline models for event classification and localization
     - *Load and Renewable Forecasting*: baseline models for load and renewable forecasting
