@@ -5,18 +5,18 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 Full dataset in Zenodo:
 Available at: [Zenodo](https://zenodo.org/deposit/5130612#).
 
-- ***Data Released***
-  -  **Load Renewable Data**: full 1-year-long milli-second-level power system time series
-  -  **Minute-level PMU Measurements**: 20-second-long milli-second-level power system time series for classification tasks
-  -  **Millisecond-level PMU Measurements**: 1-year-long hourly power system dataset for forecasting tasks
+***Data Released***
+-  **Load Renewable Data**: full 1-year-long milli-second-level power system time series
+-  **Minute-level PMU Measurements**: 20-second-long milli-second-level power system time series for classification tasks
+-  **Millisecond-level PMU Measurements**: 1-year-long hourly power system dataset for forecasting tasks
 
 ## Code Navigation
-- ***Code*** (to be released upon acceptance)
-  - **Benchmark Model**
-    - *Event Classification and Localization*: baseline models for event classification and localization
-    - *Load and Renewable Forecasting*: baseline models for load and renewable forecasting
-    - *Synthetic Data Generation*: baseline models for synthetic data generation of physical-laws-constrained PMU measurement time series
-  - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
+***Code*** (to be released upon acceptance)
+- **Benchmark Model**
+  - *Event Classification and Localization*: baseline models for event classification and localization
+  - *Load and Renewable Forecasting*: baseline models for load and renewable forecasting
+  - *Synthetic Data Generation*: baseline models for synthetic data generation of physical-laws-constrained PMU measurement time series
+- **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
 
 ## Dataset Version History
 - V 0.1: initiate data upload
