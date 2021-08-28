@@ -3,9 +3,9 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 
 ## Navigation
 - ***Data Released***
-  -  **Dataset_full.csv**: full 1-year-long milli-second-level power system time series
-  -  **Dataset_classification.csv**: 20-second-long milli-second-level power system time series for classification tasks
-  -  **Dataset_forecasting.csv**: 1-year-long hourly power system dataset for forecasting tasks
+  -  **Load Renewable Data**: full 1-year-long milli-second-level power system time series
+  -  **Minute-level PMU Measurements**: 20-second-long milli-second-level power system time series for classification tasks
+  -  **Millisecond-level PMU Measurements**: 1-year-long hourly power system dataset for forecasting tasks
   
 
 - ***Data Original***
@@ -17,6 +17,7 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   - **Benchmark Model**
     - *Event Classification and Localization*: baseline models for event classification and localization
     - *Load and Renewable Forecasting*: baseline models for load and renewable forecasting
+    - *Synthetic Data Generation*: baseline models for synthetic data generation of physical-laws-constrained PMU measurement time series
   - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
 
 ## Terms of use, privacy and license
