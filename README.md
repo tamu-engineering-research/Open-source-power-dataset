@@ -18,10 +18,11 @@ Available at: [Zenodo](https://zenodo.org/deposit/5130612#).
     - *Synthetic Data Generation*: baseline models for synthetic data generation of physical-laws-constrained PMU measurement time series
   - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
 
-## Terms of use, privacy and license
-
 ## Dataset Version History
 - V 0.1: initiate data upload
+
+## License
+The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/), meaning everyone can use it only for non-commercial research purpose.
 
 ## Suggested Citation
 - Please cite the following paper when you use this data hub:  
@@ -29,8 +30,5 @@ Available at: [Zenodo](https://zenodo.org/deposit/5130612#).
 "PSML: A Multi-scale Time-series Dataset for Machine Learning in Decarbonized Energy Grids," Neural Information Processing System Dataset and Benchmark Track, 2021.
 `\
 Available at: [arXiv](https://arxiv.org/abs/XXXXXXXXXXXXXX).
-
-- Alternative supplement dataset in Zenodo:
-Available at: [Zenodo](https://zenodo.org/deposit/5130612#).
 
 ## Contact
