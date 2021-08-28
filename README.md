@@ -22,7 +22,7 @@ Available at: [Zenodo](https://zenodo.org/deposit/5130612#).
 - V 0.1: initiate data upload
 
 ## License
-The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/), meaning everyone can use it only for non-commercial research purpose.
+The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/), meaning everyone can use it for non-commercial research purpose.
 
 ## Suggested Citation
 - Please cite the following paper when you use this data hub:  
