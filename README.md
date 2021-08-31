@@ -16,7 +16,7 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
 
 ## Dataset Version History
-- V 0.1: initiate data upload
+- V 0.1: initiate data and code upload
 
 ## License
 The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/), meaning everyone can use it for non-commercial research purpose.
