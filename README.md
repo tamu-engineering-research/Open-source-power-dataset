@@ -21,7 +21,7 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   - Field `Temperature`: Temperature in degree Celsius.
 
 ### Minute-level PMU Measurements ###
-- Field Name
+- File Name
   - case #: The `case 0` folder contains all data of scenario setting #0.
     - pf_input_#.txt: Selected load, renewable and solar generation for the simulation.
     - pf_result_#.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
@@ -32,6 +32,10 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   - Field `P_#_#_#`: `P_3_4_1` means the active power transferring in the #1 branch from the bus 3 to 4.
   - Field `Q_#_#_#`: `Q_5_20_1` means the reactive power transferring in the #1 branch from the bus 5 to 20.
 ### Millisecond-level PMU Measurements ###
+- File Name
+  - Forced Oscillation: The folder contains all forced oscillation cases.
+    - row_#: The folder contains all data of the disturbance scenario #.
+      - pf_result_#.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
 
 ## Code Navigation
 `To be released upon acceptance`
