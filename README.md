@@ -67,5 +67,5 @@ The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommo
 - Please cite the following paper when you use this data hub:  
 `
 "PSML: A Multi-scale Time-series Dataset for Machine Learning in Decarbonized Energy Grids," Neural Information Processing System Dataset and Benchmark Track, 2021.
-`\
+`
 ## Contact
