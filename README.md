@@ -3,9 +3,10 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 
 ## Dataset Navigation
 ***Full dataset in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).***
--  **Load Renewable Data**: full 1-year-long milli-second-level power system time series
--  **Minute-level PMU Measurements**: 4-second-long milli-second-level power system time series for classification tasks
--  **Millisecond-level PMU Measurements**: 1-year-long hourly power system dataset for forecasting tasks
+-  **Minute-level Load and Renewable**:
+  - assd
+-  **Minute-level PMU Measurements**:
+-  **Millisecond-level PMU Measurements**:
 
 ## Code Navigation
 ***Code*** (to be released upon acceptance)
