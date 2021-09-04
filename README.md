@@ -3,12 +3,11 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 
 ## Dataset Navigation ##
 **`Full dataset` in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).**
+### Minute-level Load and Renewable ###
 
-### **Minute-level Load and Renewable** ###
+### Minute-level PMU Measurements ###
 
-**Minute-level PMU Measurements**:
-
-**Millisecond-level PMU Measurements**:
+### Millisecond-level PMU Measurements ###
 
 ## Code Navigation
 ***Code*** (to be released upon acceptance)
