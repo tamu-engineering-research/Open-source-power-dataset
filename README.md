@@ -24,14 +24,13 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 - Field Name
   - case #: The `case 0` folder contains all data of scenario setting #0.
     - pf_input_#.txt: Selected load, renewable and solar generation for the simulation.
-    - pf_result_#.csv: Simualted voltage at nodes, current and active power on branches.
+    - pf_result_#.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
 - Filed Description
   - Field `time`: Time of minute resolution.
-  - Field `Vm_###`: Voltage magnitude at the bus ### in the simulated model.
-  - Field `time`:
-  - Field `time`:
-  - Field `time`:
-  - Field `time`:
+  - Field `Vm_###`: Voltage magnitude (p.u.) at the bus ### in the simulated model.
+  - Field `Va_###`: Voltage angle (rad) at the bus ### in the simulated model.
+  - Field `P_#_#_#`: `P_3_4_1` means the active power transferring in the #1 branch from the bus 3 to 4.
+  - Field `Q_#_#_#`: `Q_5_20_1` means the reactive power transferring in the #1 branch from the bus 5 to 20.
 ### Millisecond-level PMU Measurements ###
 
 ## Code Navigation
