@@ -34,8 +34,8 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 ### Millisecond-level PMU Measurements ###
 - File Name
   - Forced Oscillation: The folder contains all forced oscillation cases.
-    > row_#: The folder contains all data of the disturbance scenario #.
-    >> pf_result_#.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
+    - row_#: The folder contains all data of the disturbance scenario #.
+      >> pf_result_#.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
 
 ## Code Navigation
 `To be released upon acceptance`
