@@ -5,7 +5,7 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 **`Full dataset` in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).**
 ### Minute-level Load and Renewable ###
 - File Name
-  - `ISO`_zone_`#`.csv: e.g. `CAISO_zone_1.csv` contains minute-level load, renewable and weather data from 2018 to 2020 in the zone 1 of CAISO.
+  - ISO_zone_#.csv: e.g. `CAISO_zone_1.csv` contains minute-level load, renewable and weather data from 2018 to 2020 in the zone 1 of CAISO.
 - Field Description
   - Field ``:  
 
