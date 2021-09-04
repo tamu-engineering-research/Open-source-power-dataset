@@ -7,7 +7,18 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 - File Name
   - ISO_zone_#.csv: e.g. `CAISO_zone_1.csv` contains minute-level load, renewable and weather data from 2018 to 2020 in the zone 1 of CAISO.
 - Field Description
-  - Field ``:  
+  - Field `time`: Time of minute resolution
+  - Field `load_power`: normalized load power
+  - Field `wind_power`: normalized wind turbine power
+  - Field `solar_power`: normalized solar PV power
+  - Field `DHI`:
+  - Field `DNI`:
+  - Field `GHI`:
+  - Field `Dew Point`:
+  - Field `Solar Zeinth Angle`:
+  - Field `Wind Speed`:
+  - Field `Relative Humidity`:
+  - Field `Temperature`:
 
 ### Minute-level PMU Measurements ###
 
