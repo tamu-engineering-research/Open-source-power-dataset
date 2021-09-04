@@ -35,14 +35,14 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 - File Name
   - Forced Oscillation: The folder contains all forced oscillation cases.
     - row_#: The folder contains all data of the disturbance scenario #.
-      > dist.csv: Three-phased voltage at nodes in the distribution system via T+D simualtion.
-      > info.csv: This file contains the start time, end time, location and type of the disturbance.
-      > trans.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
+      - dist.csv: Three-phased voltage at nodes in the distribution system via T+D simualtion.
+      - info.csv: This file contains the start time, end time, location and type of the disturbance.
+      - trans.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
   - Natural Oscillation: The folder contains all natural oscillation cases.
     - row_#: The folder contains all data of the disturbance scenario #.
-      > dist.csv: Three-phased voltage at nodes in the distribution system via T+D simualtion.
-      > info.csv: This file contains the start time, end time, location and type of the disturbance.
-      > trans.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
+      - dist.csv: Three-phased voltage at nodes in the distribution system via T+D simualtion.
+      - info.csv: This file contains the start time, end time, location and type of the disturbance.
+      - trans.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
 - Filed Description
   > trans.csv
   - Field `Time(s)`: Time of minute resolution.
