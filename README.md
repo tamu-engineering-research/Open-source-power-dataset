@@ -10,7 +10,7 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 ### Millisecond-level PMU Measurements ###
 
 ## Code Navigation
-***Code*** (to be released upon acceptance)
+`To be released upon acceptance`
 - **Benchmark Model**
   - *Event Classification and Localization*: baseline models for event classification and localization
   - *Load and Renewable Forecasting*: baseline models for hierarchical load and renewable forecasting
