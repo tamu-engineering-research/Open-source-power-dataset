@@ -5,23 +5,33 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 **`Full dataset` in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).**
 ### Minute-level Load and Renewable ###
 - File Name
-  - ISO_zone_#.csv: e.g. `CAISO_zone_1.csv` contains minute-level load, renewable and weather data from 2018 to 2020 in the zone 1 of CAISO.
+  - ISO_zone_#.csv: `CAISO_zone_1.csv` contains minute-level load, renewable and weather data from 2018 to 2020 in the zone 1 of CAISO.
 - Field Description
-  - Field `time`: Time of minute resolution
-  - Field `load_power`: Normalized load power
-  - Field `wind_power`: Normalized wind turbine power
-  - Field `solar_power`: Normalized solar PV power
-  - Field `DHI`: Direct normal irradiance
-  - Field `DNI`: Diffuse horizontal irradiance
-  - Field `GHI`: Global horizontal irradiance
-  - Field `Dew Point`: Dew point in degree Celsius
-  - Field `Solar Zeinth Angle`: The angle between the sun's rays and the vertical direction in degree
-  - Field `Wind Speed`: Wind speed (m/s)
-  - Field `Relative Humidity`: Relative humidity (%)
-  - Field `Temperature`: Temperature in degree Celsius
+  - Field `time`: Time of minute resolution.
+  - Field `load_power`: Normalized load power.
+  - Field `wind_power`: Normalized wind turbine power.
+  - Field `solar_power`: Normalized solar PV power.
+  - Field `DHI`: Direct normal irradiance.
+  - Field `DNI`: Diffuse horizontal irradiance.
+  - Field `GHI`: Global horizontal irradiance.
+  - Field `Dew Point`: Dew point in degree Celsius.
+  - Field `Solar Zeinth Angle`: The angle between the sun's rays and the vertical direction in degree.
+  - Field `Wind Speed`: Wind speed (m/s).
+  - Field `Relative Humidity`: Relative humidity (%).
+  - Field `Temperature`: Temperature in degree Celsius.
 
 ### Minute-level PMU Measurements ###
-
+- Field Name
+  - case #: The `case 0` folder contains all data of scenario setting #0.
+    - pf_input_#.txt: Selected load, renewable and solar generation for the simulation.
+    - pf_result_#.csv: Simualted voltage at nodes, current and active power on branches.
+- Filed Description
+  - Field `time`: Time of minute resolution.
+  - Field `Vm_###`: Voltage magnitude at the bus ### in the simulated model.
+  - Field `time`:
+  - Field `time`:
+  - Field `time`:
+  - Field `time`:
 ### Millisecond-level PMU Measurements ###
 
 ## Code Navigation
