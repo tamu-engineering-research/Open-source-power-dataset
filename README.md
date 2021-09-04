@@ -35,8 +35,21 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
 - File Name
   - Forced Oscillation: The folder contains all forced oscillation cases.
     - row_#: The folder contains all data of the disturbance scenario #.
-      >> pf_result_#.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
-
+      > dist.csv: Three-phased voltage at nodes in the distribution system via T+D simualtion.
+      > info.csv: This file contains the start time, end time, location and type of the disturbance.
+      > trans.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
+  - Natural Oscillation: The folder contains all natural oscillation cases.
+    - row_#: The folder contains all data of the disturbance scenario #.
+      > dist.csv: Three-phased voltage at nodes in the distribution system via T+D simualtion.
+      > info.csv: This file contains the start time, end time, location and type of the disturbance.
+      > trans.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
+- Filed Description
+  > trans.csv
+  - Field `Time(s)`: Time of minute resolution.
+  - Field `Vm_###`: Voltage magnitude (p.u.) at the bus ### in the simulated model.
+  - Field `Va_###`: Voltage angle (rad) at the bus ### in the simulated model.
+  - Field `P_#_#_#`: `P_3_4_1` means the active power transferring in the #1 branch from the bus 3 to 4.
+  - Field `Q_#_#_#`: `Q_5_20_1` means the reactive power transferring in the #1 branch from the bus 5 to 20.
 ## Code Navigation
 `To be released upon acceptance`
 - **Benchmark Model**
