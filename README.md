@@ -48,10 +48,10 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   - Field `Time(s)`: Time of millisecond resolution.
   - Field `VOLT ###`: Voltage magnitude (p.u.) at the bus ### in the transmission model.
   - Field `POWR ### TO ### CKT #`: `POWR 151 TO 152 CKT '1 '` means the active power transferring in the #1 branch from the bus 151 to 152.
+  - Field `VARS ### TO ### CKT #`: `VARS 151 TO 152 CKT '1 '` means the reactive power transferring in the #1 branch from the bus 151 to 152.
   > dist.csv
   - Field `Time(s)`: Time of millisecond resolution.
-  - Field `####.###.#`: Voltage magnitude (p.u.) at the bus ### in the transmission model.
-  - Field `VARS ### TO ### CKT #`: `3005.633.1` means per-unit voltage magnitude of the phase A at the bus 633 of the distribution grid, the one connecting to the bus 3005 in the transmission system.
+  - Field `####.###.#`: `3005.633.1` means per-unit voltage magnitude of the phase A at the bus 633 of the distribution grid, the one connecting to the bus 3005 in the transmission system.
 ## Code Navigation
 `To be released upon acceptance`
 - **Benchmark Model**
