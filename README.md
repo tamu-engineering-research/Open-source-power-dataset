@@ -45,11 +45,13 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
       - trans.csv: Voltage at nodes and power on branches in the transmission system via T+D simualtion.
 - Filed Description
   > trans.csv
-  - Field `Time(s)`: Time of minute resolution.
-  - Field `Vm_###`: Voltage magnitude (p.u.) at the bus ### in the simulated model.
-  - Field `Va_###`: Voltage angle (rad) at the bus ### in the simulated model.
-  - Field `P_#_#_#`: `P_3_4_1` means the active power transferring in the #1 branch from the bus 3 to 4.
-  - Field `Q_#_#_#`: `Q_5_20_1` means the reactive power transferring in the #1 branch from the bus 5 to 20.
+  - Field `Time(s)`: Time of millisecond resolution.
+  - Field `VOLT ###`: Voltage magnitude (p.u.) at the bus ### in the transmission model.
+  - Field `POWR ### TO ### CKT #`: `POWR 151 TO 152 CKT '1 '` means the active power transferring in the #1 branch from the bus 151 to 152.
+  > dist.csv
+  - Field `Time(s)`: Time of millisecond resolution.
+  - Field `####.###.#`: Voltage magnitude (p.u.) at the bus ### in the transmission model.
+  - Field `VARS ### TO ### CKT #`: `3005.633.1` means per-unit voltage magnitude of the phase A at the bus 633 of the distribution grid, the one connecting to the bus 3005 in the transmission system.
 ## Code Navigation
 `To be released upon acceptance`
 - **Benchmark Model**
