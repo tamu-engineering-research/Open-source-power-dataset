@@ -1,0 +1,135 @@
+
+PSS(R)E PROGRAM APPLICATION GUIDE EXAMPLE
+BASE CASE INCLUDING SEQUENCE DATA
+
+The Saved Case in file C:\Users\Tong Huang\Documents\PTI\PSSE34\EXAMPLE\savnw.sav was saved on TUE, JAN 26 2016  20:50
+
+The following option settings are changed to the settings contained in the Saved Case File:
+
+** [OPF] APPLY FUEL COST OBJECTIVE option setting set to YES
+
+** [OPF] APPLY ADJUSTABLE BRANCH REACTANCE OBJECTIVE option setting set to YES
+
+** [OPF] CONSTRAIN INTERFACE FLOWS option setting set to YES
+
+** [OPF] AUTOMATIC SCALING option setting set to YES
+
+** [OPF] DUAL VARIABLE CONVERGENCE CRITERIA option setting set to YES
+
+** [OPF] NUMBER OF BAD ITERATIONS WHEN MU>-2 option setting set to 10
+
+** [OPF] NUMBER OF BAD ITERATIONS WHEN MU<=-2 option setting set to 20
+
+** [OPF] PRODUCE AN OPF LOG FILE option setting set to YES
+
+** [OPF] ADD SOLUTION DETAILS TO OPF LOG FILE option setting set to YES
+
+Power flow solution parameters changed:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+        20             100      ITMXN
+
+Power flow data changed for machine "1" at bus 3018 [CATDOG_G    13.800]:
+X--ORIGINAL--X  X-NEW VALUE--X  DATA ITEM
+         0               2      WMOD
+  0.350000         99999.0      ZX
+
+ ITER       DELTAP      BUS         DELTAQ      BUS        DELTA/V/      BUS       DELTAANG      BUS
+  0.0       0.0002(    154     )    0.8000(   3018     )
+                                                            0.00000(            )   0.00000(   3018     )
+  0.5       0.0000(    205     )    0.8000(   3018     )
+                                                            0.05663(   3018     )   0.00000(            )
+  1.0       0.5181(    205     )    2.0978(    206     )
+                                                            0.00000(            )   0.01018(   3018     )
+  1.5       0.0303(    205     )    2.0213(    206     )
+                                                            0.02720(    211     )   0.00000(            )
+  2.0       0.2466(    206     )    0.2148(    206     )
+                                                            0.00000(            )   0.00437(    206     )
+  2.5       0.0161(    205     )    2.3381(    206     )
+                                                            0.07544(    206     )   0.00000(            )
+  3.0       1.2638(    205     )    0.4643(    206     )
+                                                            0.00000(            )   0.01616(    154     )
+  3.5       0.0785(    206     )    0.4926(    205     )
+                                                            0.02713(    211     )   0.00000(            )
+  4.0       0.3220(    211     )    2.3632(    211     )
+                                                            0.00000(            )   0.00790(    205     )
+  4.5       0.0124(    201     )    2.2802(    211     )
+                                                            0.04689(    211     )   0.00000(            )
+  5.0       0.3482(    211     )    0.1874(    211     )
+                                                            0.00000(            )   0.00711(    211     )
+  5.5       0.0180(    201     )    0.2443(    211     )
+                                                            0.00458(    211     )   0.00000(            )
+
+PHASE SHIFTERS ADJUSTED:
+X------ ADJUSTABLE SIDE ------X  X------------ TO -------------X CKT     OLD        NEW       CHANGE
+   202     [EAST500     500.00]     203     [EAST230     230.00]  1     0.000      1.394      1.3935
+
+1 phase shifters adjusted
+
+  6.5       0.0003(    203     )    0.0845(    202     )
+                                                            0.00078(    211     )   0.00000(            )
+  7.0       0.0098(    202     )    0.0170(    211     )
+                                                            0.00000(            )   0.00011(    202     )
+
+TAP RATIOS ADJUSTED:
+X------ ADJUSTABLE SIDE ------X  X------------ TO -------------X CKT   OLD       NEW       CHANGE
+   152     [MID500      500.00]     153     [MID230      230.00]  1  1.01000   0.96000   -0.05000
+   204     [SUB500      500.00]     205     [SUB230      230.00]  1  1.00000   0.95312   -0.04688
+
+2 tap ratios adjusted
+
+  7.5       0.3970(    152     )   11.0658(    152     )
+                                                            0.03572(    153     )   0.00000(            )
+  8.0       0.5526(    152     )    0.9358(    211     )
+                                                            0.00000(            )   0.00508(    154     )
+  8.5       0.0241(    153     )    0.9462(    211     )
+                                                            0.01796(    211     )   0.00000(            )
+  9.0       0.2776(    205     )    0.8431(    211     )
+                                                            0.00000(            )   0.00446(    211     )
+
+TAP RATIOS ADJUSTED:
+X------ ADJUSTABLE SIDE ------X  X------------ TO -------------X CKT   OLD       NEW       CHANGE
+   152     [MID500      500.00]     153     [MID230      230.00]  1  0.96000   0.95000LO -0.01000
+   204     [SUB500      500.00]     205     [SUB230      230.00]  1  0.95312   0.95000LO -0.00313
+
+2 tap ratios adjusted
+
+  9.5       0.0717(    153     )    2.4851(    152     )
+                                                            0.01605(    211     )   0.00000(            )
+ 10.0       0.1519(    154     )    0.1640(    211     )
+                                                            0.00000(            )   0.00160(    211     )
+ 10.5       0.0080(    152     )    0.1467(    152     )
+                                                            0.00419(    154     )   0.00000(            )
+
+PHASE SHIFTERS ADJUSTED:
+X------ ADJUSTABLE SIDE ------X  X------------ TO -------------X CKT     OLD        NEW       CHANGE
+   202     [EAST500     500.00]     203     [EAST230     230.00]  1     1.394      0.875     -0.5189
+
+1 phase shifters adjusted
+
+ 11.5       0.0000(    154     )    0.2526(    211     )
+                                                            0.00481(    211     )   0.00000(            )
+ 12.0       0.0401(    201     )    0.0896(    211     )
+                                                            0.00000(            )   0.00072(    211     )
+ 12.5       0.0015(    152     )    0.0848(    211     )
+                                                            0.00163(    211     )   0.00000(            )
+ 13.0       0.0118(    205     )    0.0511(    206     )
+                                                            0.00000(            )   0.00017(    154     )
+ 13.5       0.0006(    205     )    0.0495(    206     )
+                                                            0.00060(    206     )   0.00000(            )
+ 14.0       0.0060(    206     )    0.0007(    206     )
+                                                            0.00000(            )   0.00010(    206     )
+ 14.5       0.0002(    205     )    0.0014(    206     )
+                                                            0.00002(    206     )   0.00000(            )
+ 15.0       0.0004(    205     )    0.0005(    206     )
+
+
+Reached tolerance in 15 iterations
+
+Largest mismatch:     -0.04 MW      0.05 Mvar      0.06 MVA at bus 205 [SUB230      230.00]
+System total absolute mismatch:                    0.16 MVA
+
+SWING BUS SUMMARY:
+  BUS#-SCT X-- NAME --X BASKV      PGEN     PMAX    PMIN      QGEN     QMAX    QMIN
+  3011     MINE_G      13.800     259.2    900.0     0.0      67.0    600.0  -100.0
+
+Case saved in file C:\Users\Tong Huang\Desktop\FOL\WECC_ORIGINAL\Re_wind_v3\savnw_wind.sav on WED, AUG 04 2021  20:26
