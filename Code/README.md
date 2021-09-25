@@ -1,5 +1,4 @@
 ## Code Navigation
-`To be released upon acceptance`
 - **Benchmark Model**
   - *Event Classification and Localization*: baseline models for event classification and localization
   - *Load and Renewable Forecasting*: baseline models for hierarchical load and renewable forecasting
