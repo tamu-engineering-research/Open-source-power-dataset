@@ -1,0 +1,29 @@
+model_params:
+  model_name: 'random_forest'
+  n_estimators: [100]
+  criterion: ['mse']
+
+exp_params:
+  variate: [ 'uni', 'multi' ] #[ 'uni', 'multi' ] #['uni', 'multi']
+
+  sliding_window: [120]
+  selection_metric: 'RMSE' # one of ['RMSE', 'MAE', 'MAPE']
+
+  train_valid_ratio: 1000
+
+  external_feature_flag: [True, False]
+  external_features: ['month_day', 'weekday', 'holiday', 'DHI', 'DNI', 'GHI', 'Dew Point', 'Solar Zenith Angle', 'Wind Speed', 'Relative Humidity', 'Temperature']
+
+  test_flag: False
+  last_version: 16
+
+  prediction_interval: 0.95
+
+  data_folder: '/meladyfs/newyork/nanx/freetime/freetime/PowerSystem/processed_datasets/forecasting'
+
+trainer_params:
+
+logging_params:
+  save_dir: './../logs'
+  name: 'random_forest'
+  manual_seed: 0

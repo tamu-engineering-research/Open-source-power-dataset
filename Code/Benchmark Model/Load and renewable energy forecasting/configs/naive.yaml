@@ -1,0 +1,20 @@
+model_params:
+  model_name: 'naive'
+
+exp_params:
+#  feature_name: 'load' # either in ['solar', 'wind', 'load']
+#  prediction_horizon: [60, 1440]
+#  location_type: 'single' # 'single' and 'multiple' should be same for naive methods
+
+  test_flag: False
+  last_version: 1
+
+  prediction_interval: 0.95
+
+  data_folder: '/meladyfs/newyork/nanx/freetime/freetime/PowerSystem/processed_datasets/forecasting'
+
+trainer_params:
+
+logging_params:
+  save_dir: './../logs'
+  name: 'naive'
