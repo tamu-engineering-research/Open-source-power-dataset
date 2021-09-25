@@ -1,4 +1,5 @@
 ## Code Navigation
+`Please see detailed explanation and comments in each subfolder.`
 - **Benchmark Model**
   - *Event Classification and Localization*: baseline models for event classification and localization
   - *Load and Renewable Forecasting*: baseline models for hierarchical load and renewable forecasting
