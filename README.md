@@ -53,11 +53,13 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   - Field `Time(s)`: Time of millisecond resolution.
   - Field `####.###.#`: `3005.633.1` means per-unit voltage magnitude of the phase A at the bus 633 of the distribution grid, the one connecting to the bus 3005 in the transmission system.
 ## Code Navigation
+`Please see detailed explanation and comments in each subfolder.`
 - **Benchmark Model**
   - *Event Classification and Localization*: baseline models for event classification and localization
   - *Load and Renewable Forecasting*: baseline models for hierarchical load and renewable forecasting
   - *Synthetic Data Generation*: baseline models for synthetic data generation of physical-laws-constrained PMU measurement time series
 - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
+- **Data Processing**: python codes for collecting the real-world load and weather data
 
 ## License
 The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/), meaning everyone can use it for non-commercial research purpose.
