@@ -53,7 +53,6 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   - Field `Time(s)`: Time of millisecond resolution.
   - Field `####.###.#`: `3005.633.1` means per-unit voltage magnitude of the phase A at the bus 633 of the distribution grid, the one connecting to the bus 3005 in the transmission system.
 ## Code Navigation
-`To be released upon acceptance`
 - **Benchmark Model**
   - *Event Classification and Localization*: baseline models for event classification and localization
   - *Load and Renewable Forecasting*: baseline models for hierarchical load and renewable forecasting
