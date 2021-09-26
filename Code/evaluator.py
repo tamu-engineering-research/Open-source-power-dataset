@@ -91,6 +91,6 @@ def _test_generation_evaluator():
 if __name__ == '__main__':
     # _test_classification_evaluator()
     #_test_forecasting_evaluator()
-    _test_generation_evaluator()
+    #_test_generation_evaluator()
     print()
 
