@@ -2,7 +2,12 @@
 The electric grid is a key enabling infrastructure for the ambitious transition towards carbon neutrality as we grapple with climate change. With deepening penetration of renewable energy resources and electrified transportation, the reliable and secure operation of the electric grid becomes increasingly challenging. In this paper, we present PSML, a first-of-its-kind open-access multi-scale time-series dataset, to aid in the development of data-driven machine learning (ML) based approaches towards reliable operation of future electric grids. The dataset is generated through a novel transmission + distribution (T+D) co-simulation designed to capture the increasingly important interactions and uncertainties of the grid dynamics, containing electric load, renewable generation, weather, voltage and current measurements at multiple spatio-temporal scales. Using PSML, we provide state-of-the-art ML baselines on three challenging use cases of critical importance to achieve: (i) early detection, accurate classification and localization of dynamic disturbance events; (ii) robust hierarchical forecasting of load and renewable energy with the presence of uncertainties and extreme events; and (iii) realistic synthetic generation of physical-law-constrained measurement time series. We envision that this dataset will enable advances for ML in dynamic systems, while simultaneously allowing ML researchers to contribute towards carbon-neutral electricity and mobility. 
 
 ## Dataset Navigation ##
-**`Full dataset` in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).**
+We put **`Full dataset` in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).** Please download, unzip and put somewhere for later 1) benchmark results reproduction, 2) data loading and performance evaluation for proposed methods.
+```bash
+wget https://zenodo.org/record/5130612/files/PSML.zip?download=1
+7z x 'PSML.zip?download=1' -o./
+```
+
 ### Minute-level Load and Renewable ###
 - File Name
   - ISO_zone_#.csv: `CAISO_zone_1.csv` contains minute-level load, renewable and weather data from 2018 to 2020 in the zone 1 of CAISO.
