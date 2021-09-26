@@ -1,8 +1,10 @@
 # Created by xunannancy at 2021/9/25
 import warnings
 warnings.filterwarnings('ignore')
-from .BenchmarkModel.EventClassification.evaluating import run_evaluate_classification
-from .BenchmarkModel.LoadForecasting.evaluating import run_evaluate_forecasting
+from BenchmarkModel.EventClassification.evaluating import run_evaluate_classification
+from BenchmarkModel.LoadForecasting.evaluating import run_evaluate_forecasting
+from BenchmarkModel.SyntheticDataGeneration.evaluating import run_evaluate_generation
+
 import pickle
 import pandas as pd
 
@@ -12,12 +14,13 @@ class TimeSeriesEvaluator:
         self.root = root
         assert self.task in ['classification', 'forecasting', 'generation']
 
-
     def eval(self, input_dict):
         if self.task == 'classification':
             result_dict = run_evaluate_classification(root=self.root, input_dict=input_dict)
         elif self.task == 'forecasting':
             result_dict = run_evaluate_forecasting(root=self.root, input_dict=input_dict)
+        elif self.task == 'generation':
+            result_dict = run_evaluate_generation(root=self.root, input_dict=input_dict)
         return result_dict
 
     @property
@@ -79,9 +82,15 @@ def _test_forecasting_evaluator():
     result_dict = evaluator.eval(input_dict)
     return result_dict
 
+def _test_generation_evaluator():
+    evaluator = TimeSeriesEvaluator(task='generation', root='/meladyfs/newyork/nanx/Datasets/PSML')
+    result_dict = evaluator.eval(input_dict = {})
+    return result_dict
+
 
 if __name__ == '__main__':
     # _test_classification_evaluator()
-    # _test_forecasting_evaluator()
+    #_test_forecasting_evaluator()
+    _test_generation_evaluator()
     print()
 
