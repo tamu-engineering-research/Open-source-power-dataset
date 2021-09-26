@@ -10,7 +10,7 @@ Here we describe how to process the original load consumption, weather, wind and
 - The obatined results should be the same as shown in the `Minute-level Load and Renewable` folder shared in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).
 
 ## References
-1. **InceptionTime**:
+1. **COVID-EMDA**:
    
-    <em>Fawaz, Hassan Ismail, et al. "Inceptiontime: Finding alexnet for time series classification." Data Mining and Knowledge Discovery 34.6 (2020): 1936-1962.</em>
-    https://github.com/sktime/sktime-dl.git
+    <em>G. Ruan, D. Wu, X. Zheng, H. Zhong, C. Kang, M. A. Dahleh, S. Sivaranjani, and L. Xie, ``A Cross-Domain Approach to Analyzing the Short-Run Impact of COVID-19 on the U.S. Electricity Sector,'' Joule, vol. 4, pp. 1-16, 2020.</em>
+    https://github.com/tamu-engineering-research/COVID-EMDA.git
