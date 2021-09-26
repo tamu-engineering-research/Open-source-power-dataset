@@ -210,7 +210,8 @@ def grid_search_transformer(config):
     evaluate_config = {
         'exp_params': {
             'prediction_path': log_dir,
-        }
+            'data_path': config['exp_params']['data_path'],
+        },
     }
     run_evaluate(config=evaluate_config, verbose=False)
     return

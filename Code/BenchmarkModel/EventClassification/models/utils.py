@@ -35,7 +35,7 @@ def run_evaluate(config, verbose=True):
         os.makedirs(log_dir)
         print(f'log_dir: {log_dir}')
 
-    data_path = '/meladyfs/newyork/nanx/freetime/freetime/PowerSystem/processed_datasets/classification/dataset_V1.pkl'
+    data_path = config['exp_params']['data_path']
 
     with open(data_path, 'rb') as f:
         dataset = pickle.load(f)

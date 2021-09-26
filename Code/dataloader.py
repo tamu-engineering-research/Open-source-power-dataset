@@ -1,10 +1,10 @@
-import torch
-import numpy as np
+import warnings
+warnings.filterwarnings('ignore')
 from .BenchmarkModel.EventClassification.processing import ClassificationDataset
 from .BenchmarkModel.LoadForecasting.processing import ForecastingDataset
 
 class TimeSeriesLoader():
-    def __init__(self, task, root='data/'):
+    def __init__(self, task, root='./../PSML/'):
         """ Initiate data loading for each task
         """
         self.task = task

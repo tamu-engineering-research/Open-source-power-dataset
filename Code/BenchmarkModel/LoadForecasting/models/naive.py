@@ -103,7 +103,7 @@ def run_naive(config):
                 flag = True
     print(f'log_dir: {log_dir}')
 
-    data_folder = '/meladyfs/newyork/nanx/freetime/freetime/PowerSystem/processed_datasets/forecasting'
+    data_folder = config['exp_params']['data_folder']
 
     feature_name, location_type = config['exp_params']['feature_name'], config['exp_params']['location_type']
     assert feature_name in ['solar', 'wind', 'load']

@@ -33,6 +33,6 @@ trainer_params:
   gpus: [3]
 
 logging_params:
-  save_dir: '/meladyfs/newyork/nanx/freetime/examples/power_forecasting/logs'
+  save_dir: './../logs'
   name: 'DeepAR'
   manual_seed: 0

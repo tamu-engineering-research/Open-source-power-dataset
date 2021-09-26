@@ -78,6 +78,24 @@ loader = TimeSeriesLoader(task='forecasting', root='./PSML') # suppose the raw d
 train_loader, test_loader = loader.load(batch_size=32, shuffle=True)
 ```
 #### (2) Evaluators
+We also provide evaluators to support fair comparison among different approaches. 
+The evaluator receives the dictionary `input_dict` (we specify key and value format of different tasks in `evaluator.expected_input_format`), 
+and returns another dictionary storing the performance measured by task-specific metrics (explanation of key and value can be found in `evaluator.expected_output_format`).
+```python
+from Code.evaluator import TimeSeriesEvaluator
+evaluator = TimeSeriesEvaluator(task='classification', root='./PSML') # suppose the raw dataset is downloaded and unzipped under Open-source-power-dataset
+# learn the appropriate format of input_dict
+print(evaluator.expected_input_format) # expected input_dict format
+print(evaluator.expected_output_format) # expected output dict format
+# prepare input_dict
+input_dict = {
+    'classification': classfication,
+    'localization': localization,
+    'detection': detection,
+}
+result_dict = evaluator.eval(input_dict)
+# sample output: {'#samples': 110, 'classification': 0.6248447204968943, 'localization': 0.08633372048006195, 'detection': 42.59349593495935}
+```
 ## Code Navigation
 `Please see detailed explanation and comments in each subfolder.`
 - **BenchmarkModel**

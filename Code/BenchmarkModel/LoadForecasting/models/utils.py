@@ -71,7 +71,7 @@ def run_evaluate_V3(config, verbose=True):
                 flag = True
         print(f'log_dir: {log_dir}')
 
-    data_folder = '/meladyfs/newyork/nanx/freetime/freetime/PowerSystem/processed_datasets/forecasting'
+    data_folder = config['exp_params']['data_folder']
 
     gt_file_dict = dict()
     for i in os.listdir(data_folder):
