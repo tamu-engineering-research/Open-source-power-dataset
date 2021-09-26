@@ -1,0 +1,37 @@
+model_params:
+  model_name: 'transformer' # ['RNN', 'GRU', 'LSTM']
+  hidden_size: [64] #[32, 64, 128]
+  num_layers: [2] #[1, 2, 3]
+  dropout: [0.1] #[0., 0.1]
+  num_heads: [8]
+  classification_token: ['first', 'last', 'all']
+
+exp_params:
+  sliding_window: [ 120 ]
+  selection_metric: 'RMSE' # one of ['RMSE', 'MAE', 'MAPE']
+
+  train_valid_ratio: 0.9
+
+  external_features: ['month_day', 'weekday', 'holiday', 'DHI', 'DNI', 'GHI', 'Dew Point', 'Solar Zenith Angle', 'Wind Speed', 'Relative Humidity', 'Temperature']
+
+  test_flag: False
+  last_version: 23
+
+  # DNNs
+  batch_size: [50] #[50, 100, 150]
+  learning_rate: [0.01] #[0.1, 0.01, 0.001]
+  num_workers: 0
+  normalization: ['minmax'] #['none', 'minmax', 'standard']
+
+  prediction_interval: 0.95
+
+  data_folder: '../../../../PSML/processed_datasets/forecasting'
+
+trainer_params:
+  max_epochs: 2 # NOTE: by default it's 50
+  gpus: [2]
+
+logging_params:
+  save_dir: './../logs'
+  name: 'transformer'
+  manual_seed: 0

@@ -1,0 +1,27 @@
+model_params:
+  model_name: 'MLSTMFCN'
+
+exp_params:
+  train_valid_ratio: 0.8
+  label_constraints: [True] #[True, False]
+
+  test_flag: False
+  last_version: 3
+
+  # DNNs
+  batch_size: [50] #[50, 100, 150]
+  learning_rate: [0.01] #[0.1, 0.01, 0.001]
+  num_workers: 0
+  normalization: ['standard'] #['none', 'minmax', 'standard']
+
+  target_name: ['fault', 'location', 'starttime']
+
+  data_path: '../../../../PSML/processed_datasets/classification.pkl'
+trainer_params:
+  max_epochs: 2 # NOTE: by default it's 50
+  gpus: [-1]
+
+logging_params:
+  save_dir: './../logs'
+  name: 'MLSTMFCN'
+  manual_seed: 0

@@ -1,0 +1,18 @@
+model_params:
+  model_name: 'MiniRocket'
+
+exp_params:
+  train_valid_ratio: 0.8
+  label_constraints: [True, False]
+
+  test_flag: False
+  last_version: 21
+
+  target_name: ['fault', 'location', 'starttime']
+
+  data_path: '../../../../PSML/processed_datasets/classification.pkl'
+
+logging_params:
+  save_dir: './../logs'
+  name: 'MiniRocket'
+  manual_seed: 0

@@ -1,0 +1,35 @@
+model_params:
+  model_name: 'ELM'
+  hidden_size: [64] #[32, 64, 128]
+  num_layers: [3] #[1, 2, 3]
+  dropout: [0.1]
+
+exp_params:
+  sliding_window: [ 120 ]
+  selection_metric: 'RMSE' # one of ['RMSE', 'MAE', 'MAPE']
+
+  train_valid_ratio: 0.9
+
+  external_features: ['month_day', 'weekday', 'holiday', 'DHI', 'DNI', 'GHI', 'Dew Point', 'Solar Zenith Angle', 'Wind Speed', 'Relative Humidity', 'Temperature']
+
+  test_flag: False
+  last_version: 6
+
+  # DNNs
+  batch_size: [50] #[50, 100, 150]
+  learning_rate: [0.01] #[0.1, 0.01, 0.001]
+  num_workers: 0
+  normalization: ['minmax'] #['none', 'minmax', 'standard']
+
+  prediction_interval: 0.95
+
+  data_folder: '../../../../PSML/processed_datasets/forecasting'
+
+trainer_params:
+  max_epochs: 2 # by default, it should be 50
+  gpus: [1]
+
+logging_params:
+  save_dir: './../logs'
+  name: 'ELM'
+  manual_seed: 0

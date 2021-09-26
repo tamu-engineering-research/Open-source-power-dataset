@@ -1,0 +1,18 @@
+model_params:
+  model_name: '1NN DTW'
+  type: 'dependent' # ['independent', 'dependent']
+
+exp_params:
+  test_flag: False
+  last_version: 2
+  normalization: 'minmax' #['none', 'minmax', 'standard']
+  data_path: '../../../../PSML/processed_datasets/classification.pkl'
+
+
+trainer_params:
+
+logging_params:
+  save_dir: './../logs'
+  name: 'NNDTW'
+
+

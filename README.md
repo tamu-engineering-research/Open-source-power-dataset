@@ -52,10 +52,36 @@ The electric grid is a key enabling infrastructure for the ambitious transition 
   > dist.csv
   - Field `Time(s)`: Time of millisecond resolution.
   - Field `####.###.#`: `3005.633.1` means per-unit voltage magnitude of the phase A at the bus 633 of the distribution grid, the one connecting to the bus 3005 in the transmission system.
+## Installation 
+- Install PSML from source.
+```bash
+git clone https://github.com/tamu-engineering-research/Open-source-power-dataset.git
+```
+- Create and activate anaconda virtual environment
+```bash
+conda create -n PSML python=3.7.10
+conda activate PSML
+```
+- Install required packages
+```bash
+pip install -r ./Code/requirements.txt
+```
+## Package Usage
+We've prepared the standard interfaces of data loaders and evaluators for all of the three time series tasks:
+#### (1) Data loaders
+We prepare the following Pytorch data loaders, with both data processing and splitting included. You can
+easily load data with a few lines for different tasks by simply modifying the `task` parameter.
+```python
+from Code.dataloader import TimeSeriesLoader
+
+loader = TimeSeriesLoader(task='forecasting', root='./PSML') # suppose the raw dataset is downloaded and unzipped under Open-source-power-dataset
+train_loader, test_loader = loader.load(batch_size=32, shuffle=True)
+```
+#### (2) Evaluators
 ## Code Navigation
-- **Benchmark Model**
-  - *Event Classification and Localization*: baseline models for event classification and localization
-  - *Load and Renewable Forecasting*: baseline models for hierarchical load and renewable forecasting
+- **BenchmarkModel**
+  - *EventClassification*: baseline models for event detection, classification and localization
+  - *LoadForecasting*: baseline models for hierarchical load and renewable point forecast and prediction interval
   - *Synthetic Data Generation*: baseline models for synthetic data generation of physical-laws-constrained PMU measurement time series
 - **Joint Simulation**: python codes for joint steady-state and transient simulation between transmission and distribution systems
 

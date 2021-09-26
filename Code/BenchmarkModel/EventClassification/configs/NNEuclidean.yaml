@@ -1,0 +1,14 @@
+model_params:
+  model_name: '1-NN Euclidean distance'
+
+exp_params:
+  test_flag: False
+  last_version: 1
+  normalization: 'standard' #['none', 'minmax', 'standard']
+  data_path: '../../../../PSML/processed_datasets/classification.pkl'
+
+trainer_params:
+
+logging_params:
+  save_dir: './../logs'
+  name: 'NNEuclidean'

@@ -1,0 +1,42 @@
+model_params:
+  model_name: 'WaveNetpy' # ['RNN', 'GRU', 'LSTM']
+  layers: [3]
+  blocks: [2]
+  dilation_channels: [32]
+  residual_channels: [32]
+  skip_channels: [1024]
+  end_channels: [512]
+  kernel_size: [2]
+
+exp_params:
+
+  sliding_window: [ 120 ]
+  selection_metric: 'RMSE' # one of ['RMSE', 'MAE', 'MAPE']
+
+  train_valid_ratio: 0.8
+
+  external_features: ['month_day', 'weekday', 'holiday', 'DHI', 'DNI', 'GHI', 'Dew Point', 'Solar Zenith Angle', 'Wind Speed', 'Relative Humidity', 'Temperature']
+
+  test_flag: False
+  last_version: 65
+
+  # DNNs
+  batch_size: [250] #[50, 100, 150]
+  learning_rate: [0.01] #[0.1, 0.01, 0.001]
+  num_workers: 0
+  normalization: ['minmax'] # ['none', 'minmax', 'standard']
+
+  weight_decay: 0.2
+
+  prediction_interval: 0.95
+
+  data_folder: '../../../../PSML/processed_datasets/forecasting'
+
+trainer_params:
+  max_epochs: 2 # NOTE: by default it's 50
+  gpus: [3]
+
+logging_params:
+  save_dir: './../logs'
+  name: 'WaveNetpy'
+  manual_seed: 0
