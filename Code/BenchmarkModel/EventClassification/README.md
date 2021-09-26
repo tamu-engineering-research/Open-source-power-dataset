@@ -29,6 +29,7 @@ the average performance is reported in the end. GPU acceleration is supported fo
 1. **InceptionTime**:
    
     <em>Fawaz, Hassan Ismail, et al. "Inceptiontime: Finding alexnet for time series classification." Data Mining and Knowledge Discovery 34.6 (2020): 1936-1962.</em>
+    
     https://github.com/sktime/sktime-dl.git
 1. **MC-DCNN**:
    

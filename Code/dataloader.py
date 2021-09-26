@@ -1,7 +1,9 @@
 import warnings
 warnings.filterwarnings('ignore')
-from .BenchmarkModel.EventClassification.processing import ClassificationDataset
-from .BenchmarkModel.LoadForecasting.processing import ForecastingDataset
+from BenchmarkModel.EventClassification.processing import ClassificationDataset
+from BenchmarkModel.LoadForecasting.processing import ForecastingDataset
+from BenchmarkModel.SyntheticDataGeneration.processing import GenerationDataset
+
 
 class TimeSeriesLoader():
     def __init__(self, task, root='./../PSML/'):
@@ -16,7 +18,7 @@ class TimeSeriesLoader():
             self.dataset = ClassificationDataset(root)
         elif self.task == 'generation':
             # Returns PMU stream data
-            pass
+            self.dataset = GenerationDataset(root)
         else:
             raise Exception
 
@@ -31,14 +33,15 @@ class TimeSeriesLoader():
             train_loader, test_loader = self.dataset.load(batch_size, shuffle)
             return train_loader, test_loader
         elif self.task == 'generation':
-            return
+            train_loader, test_loader = self.dataset.load(batch_size, shuffle)
+            return train_loader, test_loader
 
 
 def _test_classification_loader():
     loader_ins = TimeSeriesLoader('classification', root='/meladyfs/newyork/nanx/Datasets/PSML')
     train_loader, test_loader = loader_ins.load(batch_size=32, shuffle=True)
+    
     print(f'train_loader: {len(train_loader)}')
-
     for i in train_loader:
         feature, label = i
         print(f'feature: {feature.shape}')
@@ -48,15 +51,15 @@ def _test_classification_loader():
     print(f'test_loader: {len(test_loader)}')
     for i in test_loader:
         print(f'feature: {i.shape}')
-
         break
+        
     return
 
 def _test_forecasting_loader():
     loader_ins = TimeSeriesLoader('forecasting', root='/meladyfs/newyork/nanx/Datasets/PSML')
     train_loader, test_loader = loader_ins.load(batch_size=32, shuffle=True)
+    
     print(f'train_loader: {len(train_loader)}')
-
     for i in train_loader:
         x, y, flag = i
         print(f'x: {x.shape}')
@@ -69,13 +72,34 @@ def _test_forecasting_loader():
         ID, x = i
         print(f'ID: {ID.shape}')
         print(f'x: {x.shape}')
-
         break
+        
     return
 
+def _test_generation_loader():
+    loader_ins = TimeSeriesLoader('generation', root='/meladyfs/newyork/nanx/Datasets/PSML')
+    train_loader, test_loader = loader_ins.load(batch_size=32, shuffle=True)
+    
+    print(f'train_loader: {len(train_loader)}')
+    for i in train_loader:
+        x, y = i
+        print(f'x: {x.shape}')
+        print(f'y: {y.shape}')
+        break
+        
+    print(f'test_loader: {len(test_loader)}')
+    for i in train_loader:
+        x, y = i
+        print(f'x: {x.shape}')
+        print(f'y: {y.shape}')
+        break
+        
+    return
+        
 if __name__ == '__main__':
-    # _test_classification_loader()
-    # _test_forecasting_loader()
+    #_test_classification_loader()
+    #_test_forecasting_loader()
+    #_test_generation_loader()
     print()
 
 
