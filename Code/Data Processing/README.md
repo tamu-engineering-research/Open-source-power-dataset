@@ -2,7 +2,10 @@
 Here we describe how to process the original load consumption, weather, wind and solar time series data into the ready-for-simulation format.
 
 ## Prerequisite
-
+- Install required packages
+```angular2html
+pip install -r requirements.txt
+```
 
 ## Processing Details
 - Before running codes, make sure the data and save paths are consistent with your downloaded data. 
