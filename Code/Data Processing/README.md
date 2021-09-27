@@ -10,8 +10,8 @@ pip install -r requirements.txt
 ## Processing Details
 - Before running codes, make sure the data and save paths are consistent with your downloaded data. 
 - Run the codes sequentially as indicated by the name of each code file.
-   - `renewable_v2_step1_weather_v2_extended.py`:
-   - `renewable_v2_step2_wind_v2_extended.py`: 
+   - `renewable_v2_step1_weather_v2_extended.py`: collect 5-minute-level weather data from 2018 to 2020 across the U.S. from [NSRDB](https://maps.nrel.gov/nsrdb-viewer/?aL=mcQtmw%255Bv%255D%3Dt&bL=clight&cE=0&lR=0&mC=31.970803930433096%2C-82.705078125&zL=5). 
+   - `renewable_v2_step2_wind_v2_extended.py`: calculate the local wind turbine output time series based on the collected weather data using the model of [PreREISE](https://github.com/Breakthrough-Energy/PreREISE.git). 
    - `renewable_v2_step3_solar_v2_extended.py`: calculate the real-world zone-wide load time series data across the U.S. from 2018 to 2020 from [COVID-EMDA](https://github.com/tamu-engineering-research/COVID-EMDA.git). 
    - `renewable_v2_step4_load_v2_extended.py`: collect the real-world zone-wide load time series data across the U.S. from 2018 to 2020 from [COVID-EMDA](https://github.com/tamu-engineering-research/COVID-EMDA.git). 
    - `renewable_v2_step5_aggregate_v2_extended.py`: collect all processed files in the former steps into the ready-for-simulation format.
