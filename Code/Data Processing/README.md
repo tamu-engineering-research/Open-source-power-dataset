@@ -10,8 +10,11 @@ pip install -r requirements.txt
 ## Processing Details
 - Before running codes, make sure the data and save paths are consistent with your downloaded data. 
 - Run codes step by step, which is indicated by the name of each code file.
-   - asd
-   - as
+   - `renewable_v2_step1_weather_v2_extended.py`:
+   - `renewable_v2_step2_wind_v2_extended.py`: 
+   - `renewable_v2_step3_solar_v2_extended.py`: 
+   - `renewable_v2_step4_load_v2_extended.py`: 
+   - `renewable_v2_step5_aggregate_v2_extended.py`: collect all processed files in the former steps into the ready-for-simulation format.
 - The obatined results should be the same as shown in the `Minute-level Load and Renewable` folder shared in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).
 
 ## References
