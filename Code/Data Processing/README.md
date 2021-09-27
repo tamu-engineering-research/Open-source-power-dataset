@@ -10,7 +10,8 @@ pip install -r requirements.txt
 ## Processing Details
 - Before running codes, make sure the data and save paths are consistent with your downloaded data. 
 - Run codes step by step, which is indicated by the name of each code file.
--- asd
+   -- asd
+   -- as
 - The obatined results should be the same as shown in the `Minute-level Load and Renewable` folder shared in [Zenodo](https://zenodo.org/record/5130612#.YTIiZI5KiUk).
 
 ## References
