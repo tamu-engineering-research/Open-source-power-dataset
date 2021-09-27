@@ -18,7 +18,7 @@ pip install -r requirements.txt
     <em>G. Ruan, D. Wu, X. Zheng, H. Zhong, C. Kang, M. A. Dahleh, S. Sivaranjani, and L. Xie, ``A Cross-Domain Approach to Analyzing the Short-Run Impact of COVID-19 on the U.S. Electricity Sector,'' Joule, vol. 4, pp. 1-16, 2020.</em>
     https://github.com/tamu-engineering-research/COVID-EMDA.git
 
-2. **Pre**:
+2. **PreREISE**:
    
     <em>Breakthrough Energy, PreREISE.</em>
     https://github.com/Breakthrough-Energy/PreREISE.git
