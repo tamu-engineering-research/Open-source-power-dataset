@@ -116,7 +116,12 @@ The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommo
 ## Suggested Citation
 - Please cite the following paper when you use this data hub:  
 `
-X. Zheng, N. Xu, L. Trinh, D. Wu, T. Huang, S. Sivaranjani, Y. Liu, and L. Xie, "PSML: A Multi-scale Time-series Dataset for Machine Learning in Decarbonized Energy Grids." (2021).
+@article{zheng2021psml,
+  title={PSML: A Multi-scale Time-series Dataset for Machine Learning in Decarbonized Energy Grids},
+  author={Zheng, Xiangtian and Xu, Nan and Trinh, Loc and Wu, Dongqi and Huang, Tong and Sivaranjani, S and Liu, Yan and Xie, Le},
+  journal={arXiv preprint arXiv:2110.06324},
+  year={2021}
+}
 `
 ## Contact
 Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.\
