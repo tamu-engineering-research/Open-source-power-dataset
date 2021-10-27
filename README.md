@@ -115,14 +115,14 @@ The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommo
 
 ## Suggested Citation
 - Please cite the following paper when you use this data hub:  
-`
+```
 @article{zheng2021psml,
   title={PSML: A Multi-scale Time-series Dataset for Machine Learning in Decarbonized Energy Grids},
   author={Zheng, Xiangtian and Xu, Nan and Trinh, Loc and Wu, Dongqi and Huang, Tong and Sivaranjani, S and Liu, Yan and Xie, Le},
   journal={arXiv preprint arXiv:2110.06324},
   year={2021}
 }
-`
+```
 ## Contact
 Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.\
 Email contact: &nbsp; [Le Xie](mailto:le.xie@tamu.edu?subject=[GitHub]%20POWERDATASET), &nbsp; [Yan Liu](mailto:yanliu.cs@usc.edu?subject=[GitHub]%20POWERDATASET), &nbsp; [Xiangtian Zheng](mailto:zxt0515@tamu.edu?subject=[GitHub]%20POWERDATASET), &nbsp; [Nan Xu](mailto:nanx@usc.edu?subject=[GitHub]%20POWERDATASET), &nbsp; [Dongqi Wu](mailto:dqwu@tamu.edu?subject=[GitHub]%20POWERDATASET), &nbsp; [Loc Trinh](mailto:loctrinh@tamu.edu?subject=[GitHub]%20POWERDATASET), &nbsp; [Tong Huang](mailto:tonghuang@tamu.edu?subject=[GitHub]%20POWERDATASET), &nbsp; [S. Sivaranjani](mailto:sivaranjani@tamu.edu?subject=[GitHub]%20POWERDATASET). 
