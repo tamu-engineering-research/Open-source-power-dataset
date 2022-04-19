@@ -112,7 +112,7 @@ result_dict = evaluator.eval(input_dict)
 - **Data Processing**: python codes for collecting the real-world load and weather data
 
 ## License
-The PSML dataset is published under [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/), meaning everyone can use it for non-commercial research purpose.
+The PSML dataset is published under [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/), meaning everyone can use it for non-commercial research purpose.
 
 ## Suggested Citation
 - Please cite the following paper when you use this data hub:  
