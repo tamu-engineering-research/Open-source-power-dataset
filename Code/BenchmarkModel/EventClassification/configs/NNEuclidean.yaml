@@ -5,7 +5,7 @@ exp_params:
   test_flag: False
   last_version: 1
   normalization: 'standard' #['none', 'minmax', 'standard']
-  data_path: '../../../../PSML/processed_datasets/classification.pkl'
+  data_path: '../../../../PSML/processed_dataset/classification.pkl'
 
 trainer_params:
 
